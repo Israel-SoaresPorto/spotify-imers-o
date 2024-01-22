@@ -1,5 +1,5 @@
 :root {
-    --sidebar-padding: 1rem 0 0 1rem;
+  --sidebar-padding: 1rem 0 0 1rem;
 }
 
 body {
@@ -15,37 +15,101 @@ body {
   width: 300px;
 }
 
+.sidebar nav a {
+  color: #b3b3b3;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  font-family: "DM Sans", sans-serif;
+}
+
 .sidebar nav ul {
-    margin-top: 20px;
-    padding: 0 20px 10px 20px;
+  margin-top: 20px;
+  padding: 0 20px 10px 20px;
 }
 
 .sidebar ul li {
-    padding: 10px 0;
+  padding: 10px 0;
 }
 
-.sidebar nav ul li a{
-    color: #b3b3b3;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 14px;
-    font-family: 'DM Sans', sans-serif;
+.sidebar nav ul li a {
+  color: #b3b3b3;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  font-family: "DM Sans", sans-serif;
 }
+
+
 
 .sidebar__navigation {
   background-color: #121212;
   border-radius: 8px;
-  padding: var(--sidebar-padding)
+  padding: var(--sidebar-padding);
+  margin-bottom: 10px;
 }
 
-.sidebar__navigation .logo img{
-    width: 80px;
+.sidebar__navigation .logo img {
+  width: 80px;
+}
+
+.sidebar__library-menu {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sidebar__library {
+  padding: 1rem;
+  color: white;
+  font-family: 'DM sans', sans-serif;
+}
+
+.sidebar__library a {
+  display: block;
+  margin-top: 90px;
+  margin-bottom: 20px;
+}
+
+.sidebar__library button {
+  background-color: #000;
+  color: white;
+  border: 2px solid #b3b3b3;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 20px;
+  margin-top: 15px;
+  padding: 10px;
+  outline: none;
+}
+
+.sidebar__library button span {
+  margin-right: 10px;
+}
+
+.sidebar__library-content {
+  background: #b3b3b3;
+  color: white;
+  border-radius: 8px;
+  padding: 1rem;
+  line-height: 1.8;
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+}
+
+.sidebar__library-content p:nth-child(1) {
+  font-weight: 600;
+}
+
+.sidebar__library-content button {
+  background-color: white;
+  color: #000;
+  border: none;
 }
 
 .logo {
   background-color: #121212;
   display: flex;
   border-radius: 8px;
-  padding: var(--sidebar-padding)
+  padding: var(--sidebar-padding);
 }
-
