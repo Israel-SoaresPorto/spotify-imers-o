@@ -60,7 +60,7 @@ body {
 .section-playlist {
   padding: 1rem;
   color: white;
-  font-family: 'DM sans', sans-serif;
+  font-family: "DM sans", sans-serif;
 }
 
 .section-playlist__content {
@@ -97,7 +97,7 @@ body {
 }
 
 .cookies {
-  padding: 20px 0;
+  padding: 30px 0;
   display: flex;
   align-items: center;
 }
@@ -130,4 +130,39 @@ body {
   display: flex;
   border-radius: 8px;
   padding: var(--sidebar-padding);
+}
+
+.footer {
+  width: 100%;
+  background: linear-gradient(to right, #b51b9e, #3070c2);
+  position: fixed;
+  bottom: 0;
+  font-weight: 600;
+  font-size: 14px;
+  color: white;
+}
+
+.footer__content {
+  font-family: "DM sans", sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 50px;
+}
+
+.footer__text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer__title {
+  text-transform: uppercase;
+}
+
+.footer__button {
+  font-weight: 600;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
 }
