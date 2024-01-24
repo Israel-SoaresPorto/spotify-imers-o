@@ -1,4 +1,11 @@
 :root {
     /* FONTS */
     --font-dm-sans: "DM Sans", sans-serif;
+    /* PADDING */
+    --sidebar-padding: 1rem 0 0 1rem;
+    /* COLORS */
+    --primary-font-color: #b3b3b3;
+    --container-color: #121212;
+    --bg-icon: #131313;
+    --bg-arrow-color: rgba(0,0,0, .7);
 }
